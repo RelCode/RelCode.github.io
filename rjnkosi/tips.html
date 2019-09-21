@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RJ NKOSI | CALCULATE TIPS!</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/tips.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
+	<link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+	<!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<section class="tips-body">
+		<h5><a href="../rjnkosi" style="color: #000;font-weight: bold;text-decoration: underline;">HOME</a></h5>
+		<h3>JS TIPS CALCULATOR</h3>
+		<div class="form-group">
+			<label for="amount">ENTER AMOUNT</label>
+			<input type="text" class="form-control" id="amount" placeholder="R ">
+		</div>
+		<div class="form-group">
+			<label for="share">SHARED AMONGST</label>
+			<input type="text" class="form-control" id="share" placeholder="NUMBER OF PEOPLE">
+		</div>
+		<div class="form-group">
+			<label for="rate">RATE SERVICE</label>
+			<select class="form-control" id="rate">
+				<option value="">SELECT</option>
+				<option value="bad">BAD : 2%</option>
+				<option value="okay">OKAY : 5%</option>
+				<option value="good">GOOD : 10%</option>
+				<option value="great">GREAT : 15%</option>
+				<option value="stars">5-STAR : 20%</option>
+			</select>
+		</div>
+		<div class="form-group">
+			<input type="submit" class="btn btn-primary" id="action" value="CALCULATE">
+		</div>
+		<div id="details"></div>
+	</section>
+	
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/tips.js"></script>
+</body>
+</html>
